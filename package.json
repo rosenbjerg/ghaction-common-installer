@@ -1,0 +1,21 @@
+{
+  "name": "ghaction-common-installer",
+  "version": "1.0.0",
+  "description": "Install applications using apt, chocolatey or homebrew depending on OS",
+  "main": "src/index.ts",
+  "repository": "https://github.com/rosenbjerg/ghaction-common-installer.git",
+  "author": "Malte Rosenbjerg <rosenbjerg@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/exec": "^1.0.4"
+  }
+}
